@@ -1,0 +1,127 @@
+:root {
+  --navy: #163b65;
+  --blue: #2f7fb0;
+  --pale: #eff6fb;
+  --ink: #1d2c3c;
+  --muted: #627487;
+}
+
+.stApp {
+  background: #f7f9fc;
+  color: var(--ink);
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+[data-testid="stSidebar"] {
+  background: #f0f5fa;
+  border-right: 1px solid #dfe8f0;
+}
+
+h1, h2, h3 {
+  color: var(--navy);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+.hero {
+  background: linear-gradient(120deg, #163b65, #2f7fb0);
+  border-radius: 20px;
+  color: white;
+  margin: 0.5rem 0 1.5rem;
+  padding: 2rem 2.2rem;
+}
+
+.hero h1, .hero p {
+  color: white;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin: 0.6rem 0;
+}
+
+.hero p {
+  color: #e4f2fb;
+  font-size: 1.05rem;
+  margin-bottom: 0;
+  max-width: 760px;
+}
+
+.eyebrow {
+  color: #81c6e4;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.metric-card, .panel, .result-card {
+  background: white;
+  border: 1px solid #e1eaf2;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(22, 59, 101, 0.045);
+  margin: 0.35rem 0 0.75rem;
+  padding: 1.25rem;
+}
+
+.metric-card {
+  min-height: 145px;
+}
+
+.metric-card .eyebrow, .panel .eyebrow, .result-card .eyebrow {
+  color: var(--blue);
+}
+
+.card-value {
+  color: var(--navy);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin: 0.45rem 0 0.1rem;
+}
+
+.muted, .panel p {
+  color: var(--muted);
+}
+
+.panel h3 {
+  margin-top: 0.25rem;
+}
+
+.result-card h2 {
+  margin-bottom: 0.2rem;
+}
+
+.disclaimer {
+  background: #fff8e9;
+  border: 1px solid #f1dfb7;
+  border-radius: 12px;
+  color: #624d21;
+  margin: 1.5rem 0;
+  padding: 1rem 1.2rem;
+}
+
+div.stButton > button[kind="primary"],
+div.stFormSubmitButton > button[kind="primary"] {
+  background: var(--navy);
+  border: 0;
+  border-radius: 10px;
+}
+
+div.stButton > button[kind="primary"]:hover,
+div.stFormSubmitButton > button[kind="primary"]:hover {
+  background: var(--blue);
+}
+
+[data-testid="stMetric"] {
+  background: white;
+  border: 1px solid #e1eaf2;
+  border-radius: 14px;
+  padding: 0.8rem 1rem;
+}
+
+@media (max-width: 700px) {
+  .hero {
+    padding: 1.4rem;
+  }
+}

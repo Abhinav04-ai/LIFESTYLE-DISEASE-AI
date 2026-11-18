@@ -1,0 +1,32 @@
+{
+  "dataset_rows": 303,
+  "models": {
+    "Logistic Regression": {
+      "Accuracy": 0.8688524590163934,
+      "Precision": 0.8125,
+      "Recall": 0.9285714285714286,
+      "F1-score": 0.8666666666666667,
+      "ROC-AUC": 0.9512987012987013,
+      "five_fold_mean_f1": 0.8126165681583638,
+      "five_fold_std_f1": 0.0547892842500261
+    },
+    "Random Forest": {
+      "Accuracy": 0.9016393442622951,
+      "Precision": 0.84375,
+      "Recall": 0.9642857142857143,
+      "F1-score": 0.9,
+      "ROC-AUC": 0.9599567099567099,
+      "five_fold_mean_f1": 0.8101067777538364,
+      "five_fold_std_f1": 0.03830984112907141
+    },
+    "XGBoost": {
+      "Accuracy": 0.8852459016393442,
+      "Precision": 0.8181818181818182,
+      "Recall": 0.9642857142857143,
+      "F1-score": 0.8852459016393442,
+      "ROC-AUC": 0.9556277056277056,
+      "five_fold_mean_f1": 0.7969468621609517,
+      "five_fold_std_f1": 0.032172424432656
+    }
+  }
+}
