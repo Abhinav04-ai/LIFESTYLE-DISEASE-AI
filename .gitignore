@@ -1,8 +1,8 @@
+venv/
 .venv/
 __pycache__/
 *.py[cod]
+.env
 .streamlit/secrets.toml
-models/*.pkl
-models/*_evaluation.joblib
-datasets/*
-!datasets/.gitkeep
+*.pkl
+*.joblib
